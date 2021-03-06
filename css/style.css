@@ -1,0 +1,282 @@
+
+a {  
+	padding: 0px 50px 0px 50px;
+	margin: 50px 0px 50px 0px;
+	color: #000000;
+	text-decoration: none;
+	font-size: 30px;
+
+	
+}
+
+a:hover {
+	color: rgba(214, 151, 57, 0.904);
+	text-decoration: none
+}
+
+body {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	background: #abb4b84b;
+}
+
+.dark-mode {
+	background-color: rgba(48, 37, 37, 0.863);
+	color: white;
+	text-decoration: none
+	
+	
+}
+
+.dark-mode a {
+	color: white;
+	text-align: left;
+	
+}
+
+#container {
+	width: 920px;
+	margin: auto;
+	text-align: left;
+}
+
+#header_logo {
+	float: left;
+	margin: 10px 0px;
+	width: 150%;
+	height: 110px;
+}
+
+
+#login_1 {
+	float: right;
+	margin: 0px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	font-size: 10px;
+}
+
+#login_1 a{
+	float: right;
+	margin: 0px;
+	margin-bottom: 0px;
+	font-size: 15px;
+}
+
+#login_1 ul {
+	list-style: none;
+}
+
+
+#login_1 a:hover {
+	color: rgba(214, 151, 57, 0.904);
+	text-decoration: none;
+}
+
+#login_2 {
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	font-size: 10px;
+}
+
+#login_2 a{
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	font-size: 15px;
+}
+
+
+#login_2 ul {
+	list-style: none;
+}
+
+#login_2 a:hover {
+	color: rgba(214, 151, 57, 0.904);
+	text-decoration: none;
+}
+
+
+#header_menu {
+	float: left;
+	margin-top: 20px;
+}
+
+#header_menu a {
+	font-size: 14px;
+}
+
+#header_menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#header_menu li {
+	display: block;
+	float: left;
+}
+
+
+#header_menu {
+	padding: 0px 0px 0px 30px;
+	margin: 20px 0px 30px 30px;
+	color: #000000;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+
+#header_menu a:hover {
+	color: rgba(214, 151, 57, 0.904);
+}
+.dark-mode {
+	color: white;
+}
+
+
+#footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+	line-height: 18px;
+	color: black;
+}
+
+#footer a{
+    text-decoration: none;
+	font-size: 18px;
+}
+
+
+#footer a :hover {
+	color: rgba(214, 151, 57, 0.904);
+    text-decoration: underline;
+}
+
+.dark-mode a:hover {
+	color: rgba(214, 151, 57, 0.904);
+    text-decoration: underline;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow */
+#slideshow {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+#mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+#prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 40px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+#next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: 40px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+#next {
+	right: 50px;
+	border-radius: 3px 0 0 3px;
+  }
+
+
+
+/* On hover, add a black background color with a little bit see-through */
+#prev:hover   {
+	background-color: rgba(0,0,0,0.8);
+}
+
+
+
+#next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+  
+
+/* Fading animation */
+#fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+#image {
+	margin-top: 180px;
+	width: 80%;
+	height: 210px;
+	display: flex;
+	justify-content: center;
+}
+
+
+#map {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 120px;
+}
+
+
+#contacts a {
+	text-decoration: none;
+	font-size: 200px;
+	justify-content: flex-end;
+	padding-right: 50px;
+}
+
+
+#contacts a :hover {
+	color: rgba(214, 151, 57, 0.904);
+	text-decoration: underline;
+}
+
